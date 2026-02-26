@@ -1,0 +1,13 @@
+package póvlorapowpow;
+
+public class PóvloraPowPow {
+
+    public static void main(String[] args) {
+     double v =5.8;
+     int g =4/7;
+        System.out.println(g);
+        System.out.println(Math.pow(v, v));
+        System.out.println(Math.scalb(v, g));
+    }
+    
+}
